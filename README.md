@@ -15,9 +15,9 @@
 ## 🚀 About Me
 I am a **Mechanical Engineer** transitioning into the world of Artificial Intelligence. I specialize in bridging the gap between physical systems and data-driven intelligence, applying the analytical rigor of engineering to solve complex problems through **Machine Learning**, **Deep Learning**, and **Data Science**.
 
-🎓 **Background:** Mechanical Engineering | AI Engineer<br>
-🔭 **Interests:** Autonomous Systems, Optimization, and Applied Artificial Intelligence.<br>
-🌱 **Currently Learning:** Deep Learning with **PyTorch**, Advanced **NLP**, Retrieval-Augmented Generation (**RAG**), and **Agentic AI**.<br>
+* 🎓 **Background:** Mechanical Engineering | AI Engineering
+* 🔭 **Interests:** Autonomous Systems, Optimization, and Applied Artificial Intelligence.
+* 🌱 **Currently Learning:** Deep Learning with **PyTorch**, Advanced **NLP**, Retrieval-Augmented Generation (**RAG**), and **Agentic AI**.
 
 ---
 
@@ -27,29 +27,35 @@ I am a **Mechanical Engineer** transitioning into the world of Artificial Intell
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/XGBoost-get?style=flat-square&logo=xgboost&logoColor=white" alt="XGBoost">
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 </p>
 
 ---
 
-## 📂 Featured [Projects](https://github.com/JuanPabloFue23/Fuentes-Juan-Portfolio/tree/main/Projects)
+## 📂 Featured Projects
 
 ### 🤖 AI & Natural Language Processing (NLP)
 
-#### [Automatic Text Summarization](https://github.com/JuanPabloFue23/Fuentes-Juan-Portfolio/tree/main/Projects/Automatic-text-summarization)
+#### [Automatic Text Summarization](./Projects/Automatic-text-summarization)
 > **A high-performance implementation of NLP techniques to condense complex information into digestible insights.**
-* **Approaches:** Extractive (TextRank) and Abstractive (BART/T5) summarization.
-* **Impact:** Reduced reading time by up to 70% while maintaining semantic integrity.
-* **Tech:** `HuggingFace Transformers`, `PyTorch`, `NLTK`.
+* **Approaches:** Abstractive summarization using **BART** architectures.
+* **Key Feature:** Hybrid implementation with manual fallback for high-reliability inference.
+* **Tech:** `HuggingFace Transformers`, `PyTorch`, `Tokenizers`.
 
 ---
 
 ### 📊 Data Science & Machine Learning
-*Coming Soon... (Projects involving Predictive Maintenance, Optimization, or Deep Learning)*
+
+#### [Car Price Prediction](./Projects/predicting-car-prices)
+> **Predictive modeling using advanced gradient boosting to estimate vehicle market value.**
+* **Model:** **XGBoost** Regressor with optimized hyperparameters.
+* **Tech:** `XGBoost`, `Scikit-Learn`, `Pandas`, `Matplotlib`.
 
 ---
 
 <p align="center">
-  Thanks for stopping by! I'm always open to discussing AI, Engineering, or the future of Agentic Systems.
+  <b>Thanks for stopping by!</b><br>
+  I'm always open to discussing AI, Engineering, or the future of Agentic Systems.
 </p>
