@@ -33,11 +33,19 @@ I am a **Mechanical Engineer** transitioning into the world of Artificial Intell
 
 ---
 
+<<<<<<< HEAD
 ## 📂 Featured [Projects](https://github.com/JuanPabloFue23/JuanFueHi_Portfolio/tree/main/Projects)
 
 ### 🤖 AI & Natural Language Processing (NLP)
 
 #### [Automatic Text Summarization](https://github.com/JuanPabloFue23/JuanFueHi_Portfolio/tree/main/Projects/Automatic-text-summarization)
+=======
+## 📂 Featured [Projects](https://github.com/JuanPabloFue23/Fuentes-Juan-Portfolio/tree/main/Projects)
+
+### 🤖 AI & Natural Language Processing (NLP)
+
+#### [Automatic Text Summarization](https://github.com/JuanPabloFue23/Fuentes-Juan-Portfolio/tree/main/Projects/Automatic-text-summarization)
+>>>>>>> 9b3aae8 (chore: update portfolio url)
 > **A high-performance implementation of NLP techniques to condense complex information into digestible insights.**
 * **Approaches:** Extractive (TextRank) and Abstractive (BART/T5) summarization.
 * **Impact:** Reduced reading time by up to 70% while maintaining semantic integrity.
