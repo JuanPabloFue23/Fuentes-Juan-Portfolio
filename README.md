@@ -38,7 +38,7 @@ I am a **Mechanical Engineer** transitioning into the world of Artificial Intell
 
 ### 🤖 AI & Natural Language Processing (NLP)
 
-#### [Automatic Text Summarization](./Projects/Automatic-text-summarization)
+#### [Automatic Text Summarization](./_projects/Automatic-text-summarization)
 > **A high-performance implementation of NLP techniques to condense complex information into digestible insights.**
 * **Approaches:** Abstractive summarization using **BART** architectures.
 * **Key Feature:** Hybrid implementation with manual fallback for high-reliability inference.
@@ -48,7 +48,7 @@ I am a **Mechanical Engineer** transitioning into the world of Artificial Intell
 
 ### 📊 Data Science & Machine Learning
 
-#### [Car Price Prediction](./Projects/predicting-car-prices)
+#### [Car Price Prediction](./_projects/predicting-car-prices)
 > **Predictive modeling using advanced gradient boosting to estimate vehicle market value.**
 * **Model:** **XGBoost** Regressor with optimized hyperparameters.
 * **Tech:** `XGBoost`, `Scikit-Learn`, `Pandas`, `Matplotlib`.
