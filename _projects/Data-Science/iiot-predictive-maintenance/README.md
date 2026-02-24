@@ -23,3 +23,6 @@ project/
 │   ├── train.py         # Champion vs. Challenger training logic
 │   └── evaluate.py      # Performance deep-dives and visualizations
 └── requirements.txt     # Pinned dependencies for reproducibility
+
+## 📈 Model Performance
+We prioritize Precision-Recall AUC over Accuracy due to the inherent class imbalance (5% failure rate). By optimizing the decision threshold, the model is designed to minimize False Negatives—preventing costly machine downtime while managing the rate of unnecessary maintenance checks.
