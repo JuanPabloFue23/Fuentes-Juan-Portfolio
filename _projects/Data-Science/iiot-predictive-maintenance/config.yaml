@@ -1,0 +1,31 @@
+project:
+  name: "iiot-predictive-maintenance"
+  version: "1.0.0"
+
+data:
+  raw_path: "data/raw_sensor_data.csv"
+  processed_path: "data/processed_features.parquet"
+  target: "failure"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  numerical: 
+    - "ambient_temp"
+    - "tool_wear_min"
+    - "torque_nm"
+  categorical: 
+    - "provider"
+    - "model_type"
+
+model:
+  algorithm: "RandomForest"
+  params:
+    n_estimators: 150
+    max_depth: 12
+    min_samples_split: 5
+    class_weight: "balanced" # Crucial for simulated class imbalance
+
+paths:
+  model_export: "models/model_v1.joblib"
+  logs: "logs/pipeline.log"

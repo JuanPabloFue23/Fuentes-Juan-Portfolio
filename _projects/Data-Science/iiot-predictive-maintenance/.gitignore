@@ -1,0 +1,41 @@
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# --- Machine Learning Artifacts ---
+# We generally don't version control large data or models
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.csv
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.onnx
+
+# --- Logs & Reports ---
+logs/
+*.log
+reports/figures/*.png
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
